@@ -1,0 +1,193 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\project\beta maatlab\semi-project\audio_player\audio_player.prj" location="D:\project\beta maatlab\semi-project\audio_player" name="audio_player" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>audio_player</param.appname>
+    <param.icon>${PROJECT_ROOT}\audio_player_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\audio_player_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\audio_player_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\audio_player_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\audio_player_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Yousef</param.authnamewatermark>
+    <param.email>youefkh05@gmail.com</param.email>
+    <param.company>beta</param.company>
+    <param.summary>It is an app that encrypt, modify play back speed and save audios</param.summary>
+    <param.description>1.Selecting an Audio File: The user can select an audio file of their choice by clicking on the "Select" button. The app supports various audio formats.
+
+2.Play, Pause, and Stop: The app allows the user to play, pause, and stop the selected audio file using corresponding buttons. The app maintains the position of the audio playback, allowing the user to resume from where they left off.
+
+3.Encryption Option: The app offers an encryption feature to add noise to the audio file, simulating encryption. The user can control the encryption level using a slider labeled "Noise," with a range from 0 to 1.
+
+4.Playback Speed Control: The app allows the user to control the playback speed of the audio file using the "Fast" and "Slow" buttons. The speed can be adjusted by increments of 0.2 from the original speed.
+
+5.Volume Control: The app provides volume control for the audio file using the "Volume" slider. The volume range is mapped from 0 to 0.5 to the original range of 1 to 5, allowing the user to adjust the volume accordingly.
+
+6.Toggle between Original and Encrypted: The app offers radio buttons labeled "Original" and "Encrypted" to toggle between the original and encrypted versions of the audio file. The user can listen to either version based on their preference.
+
+7.Display Information: The app displays information such as the file location, file name, current playback rate, noise level, and volume factor. The user can view and modify this information as needed.
+
+8.Saving Audios: Safeguard your creations effortlessly. Tap the "Save" button, name your file, choose the format (MP3, FLAC, WAV, etc.), and store your audio masterpiece. Your work is now ready for playback, sharing, or safekeeping.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\audio_player_resources\audioLogo.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\beta\audio_player\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\audio_player\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\audio_player\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\audio_player\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\audio_player</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 audio_player -? 
+	 audio_player varargin 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 varargin  input arguments 
+ Description 
+ 	 1.Selecting an Audio File: The user can select an audio file of their choice by clicking on the "Select" button. The app supports various audio formats.
+
+2.Play, Pause, and Stop: The app allows the user to play, pause, and stop the selected audio file using corresponding buttons. The app maintains the position of the audio playback, allowing the user to resume from where they left off.
+
+3.Encryption Option: The app offers an encryption feature to add noise to the audio file, simulating encryption. The user can control the encryption level using a slider labeled "Noise," with a range from 0 to 1.
+
+4.Playback Speed Control: The app allows the user to control the playback speed of the audio file using the "Fast" and "Slow" buttons. The speed can be adjusted by increments of 0.2 from the original speed.
+
+5.Volume Control: The app provides volume control for the audio file using the "Volume" slider. The volume range is mapped from 0 to 0.5 to the original range of 1 to 5, allowing the user to adjust the volume accordingly.
+
+6.Toggle between Original and Encrypted: The app offers radio buttons labeled "Original" and "Encrypted" to toggle between the original and encrypted versions of the audio file. The user can listen to either version based on their preference.
+
+7.Display Information: The app displays information such as the file location, file name, current playback rate, noise level, and volume factor. The user can view and modify this information as needed.
+
+8.Saving Audios: Safeguard your creations effortlessly. Tap the "Save" button, name your file, choose the format (MP3, FLAC, WAV, etc.), and store your audio masterpiece. Your work is now ready for playback, sharing, or safekeeping.</param.help.text>
+    <unset>
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\audio_player.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\saveAudio.fig</file>
+      <file>${PROJECT_ROOT}\saveAudio.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\audio_player.fig</file>
+      <file>${PROJECT_ROOT}\encrypt_audio.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\audio_player\for_testing" name="audio_player.exe" optional="false">D:\project\beta maatlab\semi-project\audio_player\audio_player\for_testing\audio_player.exe</file>
+      <file location="${PROJECT_ROOT}\audio_player\for_testing" name="splash.png" optional="false">D:\project\beta maatlab\semi-project\audio_player\audio_player\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\audio_player\for_testing" name="readme.txt" optional="true">D:\project\beta maatlab\semi-project\audio_player\audio_player\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\Polyspace\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
